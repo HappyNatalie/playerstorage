@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "hn_playerstorage:bin/fix/give/root"
+  }
+}

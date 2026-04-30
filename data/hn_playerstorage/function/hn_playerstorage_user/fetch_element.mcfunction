@@ -1,0 +1,1 @@
+$return run data get storage $(storage_location).playerspesific.$(storage_id) contents.$(element_path)
