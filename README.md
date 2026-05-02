@@ -16,6 +16,10 @@ Takes the `contents:{}` element of the player spesific variant of the storage sp
    This function must be run `as` a player and will use the storage of the player running it.<br>
 Returns the result of running a data get command on the target path within a player spesific storage. Assuming the arguments `"my_namespace:my_storage"` and `"my_element"` were used on a player whos `my_namespace:my_storage.playerspesific.<PLAYERID>` storage contained `{contents:{my_element:10}}` it would return 10.
 ***
+ - `hn_playerstorage_user:function_with_storage {storage_location:<STRING>,function:<STRING>}`<br>
+   This function must be run `as` a player and will use the storage of the player running it.<br>
+Runs the `function` specified with the `contents` of that players `storage_location`.
+***
  - `hn_playerstorage_user:fetch_id`<br>
     This function must be run `as` a player.
 Returns the players ID as interger. (For if you want to manually go through player spesific storages I guess.)
