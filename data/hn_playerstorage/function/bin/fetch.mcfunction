@@ -19,3 +19,4 @@ execute if entity @s[advancements={hn_playerstorage:bits/15=true}] run scoreboar
 execute if entity @s[advancements={hn_playerstorage:bits/16=true}] run scoreboard players add #bin hn_playerstorage.generic 32768
 #output
 return run scoreboard players get #bin hn_playerstorage.generic
+say test

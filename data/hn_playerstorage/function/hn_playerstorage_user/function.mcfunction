@@ -1,0 +1,2 @@
+$data modify storage hn_playerstorage:function contents set from storage $(storage_location).playerspesific.$(storage_id) contents
+function hn_playerstorage:hn_playerstorage_user/function2 with storage hn_playerstorage:function

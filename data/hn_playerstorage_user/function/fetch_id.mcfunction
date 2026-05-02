@@ -1,0 +1,1 @@
+return run function hn_playerstorage:bin/fetch
