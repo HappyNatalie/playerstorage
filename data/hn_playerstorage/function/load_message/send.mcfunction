@@ -1,4 +1,4 @@
-tellraw @a ["> ",{"color":"#82FFD1","text":"PlayerStorage"},{"color":"white","text":" v1.0 loaded!"}]
+tellraw @a ["> ",{"color":"#82FFD1","text":"PlayerStorage"},{"color":"white","text":" v1.1 loaded!"}]
 tellraw @a ["> Check out the ",{"click_event":{"action":"open_url","url":"https://github.com/HappyNatalie/playerstorage"},"color":"blue","text":"Github","underlined":true},{"color":"white","text":" for documentation and source code","underlined":false}]
 tellraw @a "> Reach out to @happynatalie on discord to report any bugs"
 tellraw @a ["> ",{"click_event":{"action":"run_command","command":"/function hn_playerstorage:load_message/toggle"},"color":"gold","hover_event":{"action":"show_text","value":[{"text":"Will run command :\n/function hn_playerstorage:load_message/toggle"}]},"text":"Disable Load Message","underlined":true}]
